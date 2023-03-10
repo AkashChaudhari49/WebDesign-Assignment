@@ -1,0 +1,21 @@
+ .card-box{
+    width:14rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:grey;
+    margin: 1rem .8rem;
+
+}
+
+ .card-box .camera-icon{
+    font-size: 2rem;
+    color:white;
+}
+
+ .card-box .detail-icon{
+    font-size: 1rem;
+    text-align: center;
+
+}

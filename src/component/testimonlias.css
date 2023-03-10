@@ -1,0 +1,50 @@
+.heading-testimonilias h3{
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 1.5rem;
+   font-weight: 700;
+   padding: 1rem 0;
+   color: rgb(28, 108, 154);
+}
+.text-para{
+    width: 70vw;
+    margin: auto;
+}
+.text-para p{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center
+
+}
+.name-ceo{
+    color: rgb(216, 89, 43);
+    font-size: 1rem;
+    font-weight: 500; 
+    text-align: center;
+    margin: .8rem;
+}
+.name-ceo span{
+    font-weight: 700;
+}
+
+.testi-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divIcon{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(200, 94, 1);
+    border-radius: 50%;
+    margin: 1rem .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divIcon .icon-main{
+    height: 3.5rem; 
+    border-radius:50%;  
+}

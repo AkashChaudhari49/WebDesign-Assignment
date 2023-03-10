@@ -1,0 +1,131 @@
+.port-container{
+    background: white;
+    width: 100vw;
+    height: 10rem;
+}
+
+.port-title h3{
+    font-size: 2rem;
+    color: rgb(10, 111, 169);
+    font-weight: 700;
+    padding: .8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.list-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 0 3rem;
+}
+
+.list-div .list-ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    list-style: none;
+    margin: 0 2rem;
+}
+.list-all{
+    border-right: .8px solid black;
+    border-left: .8px solid black; 
+    display: flex;
+}
+.list-div .list-ul li{
+    padding: 0 1rem;
+    margin: .4rem 0;
+    border-right: .7px solid black;
+}
+.list-div .list-ul li:hover{
+    margin: 0;
+    color: white;
+    background: rgb(10, 111, 169);
+    border: none;
+}
+.grid-view button{
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin: 0 2rem;
+}
+.grid-view{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.icon-grid{
+    display: flex;
+    justify-content: center;
+    padding: .2rem .2rem;
+    margin: 0 .5rem;
+}
+.icon-grid .gridIcon{
+    margin-right: .2rem;
+
+
+}
+
+
+
+.cards-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 4rem;
+}
+
+
+
+.button-prev-next{
+    display: flex;
+    width: 8rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 1rem auto;
+}
+.button-prev-next .btn{
+    border: none;
+    padding: .2rem .4rem;
+    background: rgb(3, 133, 226);
+    color: white;
+
+}
+
+.button-prev-next .btn .iconPrNe{
+    font-size: .7rem;
+    background: white;
+    border-radius: 50%;
+}
+
+.client-container{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.client-title h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(3, 133, 226);
+    text-transform: uppercase;
+}
+.clients{
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-img img {
+    width: 4rem;
+    height: 4rem;
+    margin:.3rem 1.5rem;
+  }

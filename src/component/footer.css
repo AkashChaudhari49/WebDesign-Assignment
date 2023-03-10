@@ -1,0 +1,105 @@
+.footer-section{
+    width: 100vw;
+    
+    background: rgb(32, 54, 75);
+    opacity: .9;
+}
+.footer-box{
+    display: flex;
+    justify-content:space-between;
+    width: 70vw;
+    padding: 1rem 0;
+    margin: auto;
+}
+.card{
+    margin: .6rem;
+    max-width: 12rem;
+    font-size:.7rem;
+    color:white;
+}
+
+.card .heading{
+    font-size: 1.2rem;
+    color: rgb(219, 104, 17);
+    font-weight: 600;
+}
+.card .para-div{
+    
+    margin: .5rem 0;
+    padding-bottom: .5rem;
+    border-bottom: .8px solid white;
+}
+.card .para-div span{
+    display: block;
+    color:white;
+}
+.card .para-div .link{
+    color: rgb(8, 117, 234);
+}
+
+.card .contact-mail h3{
+    font-size: .8rem;
+    padding: .3rem 0;
+    color: rgb(8, 117, 234) ;
+}
+.card .contact-mail input{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: .2rem .5rem;
+}
+.card .contact-mail button{
+    background: rgb(8, 117, 234) ;
+    color: white;
+    border: none;
+    margin: .5rem 0;
+    padding: 3px 4px;
+    float: right;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.project-div{
+    display: flex;
+    margin: .5rem 0;
+    padding-bottom: .5rem;
+    border-bottom: .8px solid white;
+}
+.card .project-div .box{
+    width: 2.5rem;
+    height: 2.6rem;
+    background: white;
+
+}
+.card .project-div .desc{
+    display: flex;
+    flex-direction: column;
+    padding-left:.5rem ;
+}
+.card .project-div .desc span{
+    display: block;
+    color:white;
+}
+
+.card .project-div .desc .link{
+    color: rgb(0, 121, 213);
+}
+
+.card .contact-div {
+    display: flex;
+    margin: .5rem 0;
+    align-items: center;
+}
+.card .contact-div .number-div span{
+    display: block;
+    padding-left: .5rem;
+    color:white;
+}
+.icon-div .icon-contact{
+   font-size:1rem;
+   color: rgb(0, 121, 213);
+}
+
